@@ -1,0 +1,23 @@
+{
+    "name": "logger-interop/interface",
+    "description": "Interoperable logger interfaces for PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul M. Jones",
+            "email": "pmjones@pmjones.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StarInterop\\Logger\\Interface\\": "./src"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0"
+    }
+}
